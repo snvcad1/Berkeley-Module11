@@ -18,12 +18,15 @@ The survey covers five types of coupons: less expensive restaurants (under $20),
 
 Prerequisites
 This project requires the following Python libraries:
+ 
 
+sklearn(for predictive data analysis)
 matplotlib.pyplot (for plotting)
 seaborn (for enhanced visualizations)
 pandas (for data manipulation)
 numpy (for numerical operations)
-termcolor (for text coloring)
+
+
 Usage Summary
 To use the project:
 
