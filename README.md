@@ -1,4 +1,4 @@
-## Berkeley-Module11
+## Berkeley-Module11 - Car Price Prediction - What factors make a car more or less expensive
 
 #Overview**
 The project aims to determine whether a customer will accept a driving coupon using visualizations and probability distributions. It requires completing the Practical Application 1 Jupyter Notebook.
