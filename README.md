@@ -30,7 +30,7 @@ numpy (for numerical operations)
 Usage Summary
 To use the project:
 
-Clone the Repository: Use the command git clone https://github.com/snvcad1/Assignments.git to clone the repository.
+Clone the Repository: Use the command git clone https://github.com/snvcad1/Berkeley-Module11.git to clone the repository.
 Navigate to the Project Directory: Change your directory to the project folder using cd aiml-customer-code.
 Install Dependencies: Execute pip install -r requirements.txt to install the necessary dependencies.
 Open the Jupyter Notebook: Launch the notebook with jupyter notebook notebook.ipynb and run the cells to explore the analysis.
