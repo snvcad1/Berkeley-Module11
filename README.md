@@ -1,31 +1,26 @@
 ## Berkeley-Module11 - Car Price Prediction - What factors make a car more or less expensive
 
-#Overview**
-The project The project aims to determine whether a customer will accept a driving coupon using visualizations and probability distributions. It requires completing the Practical Application 1 Jupyter Notebook.
-Problem Statement Summary
-The project explores the decision-making process of drivers when they receive a coupon on their phone for a nearby venue, such as a restaurant, bar, or coffee house. It examines whether drivers would use the coupon immediately, save it for later, or ignore it altogether. The study considers various influencing factors, including the type of venue, the presence of a passenger, weather conditions, time of day, and proximity to the venue. The primary goal is to understand the factors that drive coupon acceptance and develop a predictive model for coupon usage behavior.
+# Overview**
+This repository contains the Jupyter Notebook for the Assignment 11.1. This takes Kaggle used car data in vehicles.csv file in the data folder of this repository to build a machine learning application that evaluates if vehicles features like Fuel, Condition, Size, Type, Color etc. can be used to determine used car prices for the Car Dealership and Sales Team. This evaluation will help the Car Dealership with fine tuning their inventory by stocking cars that consumers are interested in.
 
-Learning Outcome
+# Respository Structure
+- data : Contains vehicles.csv file which was downloaded from Kaggle Machine Learning dataset repository
+- notebook : Userd Car Price Predition (UsedCarPricePrediction-Final.ipynb)
 
-The assignment focuses on applying exploratory data analysis, plotting, statistical summarization, and data visualization skills to a machine learning problem.
-Data
+# Learning Outcome
+Objective is to identify key features for used car prices based on the dataset provided so that Car Dealers and their Sales Team can use these key features to understand the cars that they need to have in their inventory to increase sales.The assignment focuses on applying exploratory data analysis, plotting, statistical summarization, and data visualization skills to a machine learning problem and also create the best prediction model to use.
 
-The dataset, sourced from the UCI Machine Learning Repository, was collected via a survey on Amazon Mechanical Turk. It includes various driving scenarios and asks respondents if they would accept a coupon as a driver. Responses are categorized as:
+# Data Understanding
+The first thing that was apparent from the provided data was that it was not clean, it had missing values and some of the values were not realistic for used cars, for example, odometer with zero and single digit values; price with zero and single digits values.
 
-"Right away" or "Later, before the coupon expires" (Y = 1)
-"No, I do not want the coupon" (Y = 0)
-The survey covers five types of coupons: less expensive restaurants (under $20), coffee houses, carryout and takeaway, bars, and more expensive restaurants ($20–$50).
-
-Prerequisites
+# Prerequisites
 This project requires the following Python libraries:
  
-
+pandas (for data manipulation)
+numpy (for numerical operations)
 sklearn(for predictive data analysis)
 matplotlib.pyplot (for plotting)
 seaborn (for enhanced visualizations)
-pandas (for data manipulation)
-numpy (for numerical operations)
-
 
 # Usage Summary
 To use the project:
@@ -37,8 +32,9 @@ Open the Jupyter Notebook: Launch the notebook with jupyter notebook notebook.ip
 Dependencies
 The project requires the following Python packages, which are listed in requirements.txt:
 
-matplotlib
-seaborn
-pandas
-numpy
-termcolor
+- pandas 
+- numpy 
+- sklearn
+- matplotlib.pyplot 
+- seaborn 
+
