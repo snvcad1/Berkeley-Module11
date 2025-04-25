@@ -31,7 +31,7 @@ Open the Jupyter Notebook: Launch the notebook with jupyter notebook notebook.ip
 
 Structure of the repository:
 - Berkeley-Module11
- ---car-data-processing.ipynb : First file to process and clean up the data
+ ---car-data-processing.ipynb : First file to process and clean up the data \n
  ---car-data-visualization.ipynb : Second file to see the visualization of the processed data.
  ---car-price-model.ipynb : Thirs file that runs Linear, Lasso, Random Forst regression model to predict the price.
  ---images : all images are stored here.
