@@ -35,7 +35,7 @@ Open the Jupyter Notebook: Launch the notebook with jupyter notebook notebook.ip
 - Berkeley-Module11
   - car-data-processing.ipynb : First file to process and clean up the data
   - car-data-visualization.ipynb : Second file to see the visualization of the processed data.
-  - car-price-model.ipynb : Thirs file that runs Linear, Lasso, Random Forst regression model to predict the price.
+  - car-price-model.ipynb : Third file that runs Linear, Lasso, Random Forst regression model to predict the price.
   - images : all images are stored here.
   - data : orginial and final data files are stored in a zip file which needs to be unziped before you run the code.
   
